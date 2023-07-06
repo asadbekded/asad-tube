@@ -1,0 +1,21 @@
+.video__list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 575px){
+    .video__list{
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .video__content-list{
+        margin: 0px auto;
+    }
+}

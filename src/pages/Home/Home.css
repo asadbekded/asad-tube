@@ -1,0 +1,30 @@
+.home__title{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.video__list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.home__spn{
+    color: #821a1a;
+}
+
+@media only screen and (max-width: 600px){
+    .home__title{
+        margin-top: 220px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .home__title{
+        font-size: 25px;
+        margin-top: 220px;
+        margin-bottom: 30px;
+    }
+}
